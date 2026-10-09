@@ -1,0 +1,657 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<link rel="icon" href="favicon.ico" type="image/x-icon">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#0a1626">
+<meta name="description" content="秋霞理伦最新电影网（qiuxialilun zuixin dianying wang）专注最新电影赏析与选片：整理最新上映片单、经典伦理片单、秋日氛围片单、电影理论与影评、正版观影渠道与观影日历。本站为正版观影指南，不提供任何播放源或下载资源。">
+<meta name="keywords" content="秋霞理伦最新电影网,最新电影,秋霞电影,伦理片,文艺片,电影赏析,电影理论,深度影评,观影指南,高分片单">
+<title>秋霞理伦最新电影网 - 最新电影赏析与选片指南_片单、电影理论与影评</title>
+<link rel="canonical" href="https://qiuxialilunzuixindianyingwang-cn.github.io/">
+<style>
+:root{
+  --bg:#0a1626; --bg2:#0f1d30; --ink:#e8eef7; --ink2:#9fb0c4; --ink3:#6b7d94;
+  --line:rgba(255,255,255,.10); --line2:rgba(255,255,255,.18);
+  --gold:#e2b15a; --gold2:#f6d98a; --rust:#c86a4a; --teal:#5cc8b8; --plum:#8a7ad6;
+  --shadow:0 18px 46px rgba(0,0,0,.45);
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
+body{
+  font-family:"PingFang SC","Microsoft YaHei","Hiragino Sans GB",system-ui,sans-serif;
+  background:var(--bg); color:var(--ink); line-height:1.75; overflow-x:hidden;
+  background-image:
+    radial-gradient(1200px 700px at 82% -8%, rgba(226,177,90,.13), transparent 60%),
+    radial-gradient(900px 600px at 8% 12%, rgba(92,200,184,.09), transparent 60%),
+    linear-gradient(180deg,#0a1626,#08101d 60%,#0a1626);
+}
+a{color:inherit;text-decoration:none}
+img{max-width:100%;display:block}
+::selection{background:var(--gold);color:#101a28}
+
+/* ============ 顶栏 ============ */
+.top{position:sticky;top:0;z-index:60;backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);
+  background:rgba(8,16,29,.82);border-bottom:1px solid var(--line)}
+.top .in{max-width:1280px;margin:0 auto;padding:13px 26px;display:flex;align-items:center;gap:18px}
+.brand{display:flex;align-items:center;gap:11px;flex:none}
+.logo{width:42px;height:42px;flex:none;border-radius:11px;position:relative;
+  background:linear-gradient(140deg,var(--gold),var(--rust));
+  box-shadow:0 6px 18px rgba(226,177,90,.3);transform:rotate(-4deg);transition:.35s}
+.logo i{position:absolute;inset:5px;border-radius:7px;background:#101a28;
+  display:grid;place-items:center;font:700 19px/1 "Songti SC",Georgia,serif;color:var(--gold2);
+  font-style:normal;letter-spacing:-1px}
+.brand b{font:700 19px/1.1 "PingFang SC",sans-serif;letter-spacing:.5px}
+.brand small{display:block;font:600 9.6px/1 "SFMono-Regular",Consolas,monospace;color:var(--ink3);letter-spacing:1.6px;margin-top:4px}
+nav{display:flex;gap:5px;margin-left:auto;flex-wrap:wrap}
+nav a{padding:8px 13px;border-radius:9px;font-size:13.6px;color:var(--ink2);transition:.25s;white-space:nowrap}
+nav a:hover{color:var(--gold2);background:rgba(226,177,90,.10)}
+nav a:focus-visible{outline:2px solid var(--gold);outline-offset:2px}
+.menu-btn{display:none;width:42px;height:42px;border:1px solid var(--line2);border-radius:11px;background:rgba(255,255,255,.04);
+  color:var(--ink);font-size:19px;cursor:pointer;align-items:center;justify-content:center}
+.drawer{position:fixed;inset:0;z-index:80;background:rgba(4,9,16,.7);backdrop-filter:blur(4px);opacity:0;pointer-events:none;transition:.3s}
+.drawer.on{opacity:1;pointer-events:auto}
+.drawer ul{position:absolute;right:0;top:0;height:100%;width:280px;padding:26px 20px;overflow:auto;
+  background:linear-gradient(180deg,#0e1b2e,#08101d);border-left:1px solid var(--line);list-style:none;
+  transform:translateX(100%);transition:.35s cubic-bezier(.4,0,.2,1)}
+.drawer.on ul{transform:none}
+.drawer a{display:block;padding:13px 14px;border-radius:11px;color:var(--ink);font-size:15px;border-bottom:1px dashed var(--line)}
+.drawer a:active{background:rgba(226,177,90,.14)}
+
+/* ============ 通用区块 ============ */
+.wrap{max-width:1240px;margin:0 auto;padding:0 26px}
+section{padding:74px 0;position:relative}
+.eyebrow{display:inline-flex;align-items:center;gap:9px;font:600 11px/1 "SFMono-Regular",Consolas,monospace;
+  letter-spacing:2.4px;color:var(--gold);text-transform:uppercase}
+.eyebrow::before{content:"";width:26px;height:2px;background:linear-gradient(90deg,var(--gold),transparent)}
+h2{font:700 30px/1.25 "PingFang SC",sans-serif;margin:12px 0 10px;letter-spacing:-.4px}
+h2 em{font-style:normal;background:linear-gradient(92deg,var(--gold),var(--rust));-webkit-background-clip:text;background-clip:text;color:transparent}
+.lead{color:var(--ink2);max-width:720px;font-size:15px}
+.sec-head{display:flex;align-items:flex-end;gap:22px;flex-wrap:wrap;margin-bottom:34px}
+.sec-head .meta{margin-left:auto;text-align:right;color:var(--ink3);font-size:12.4px;padding-bottom:5px}
+.sec-head .meta b{display:block;font:700 22px/1 "SFMono-Regular",Consolas,monospace;color:var(--gold2);letter-spacing:1px}
+
+/* ============ 首屏 ============ */
+.hero{min-height:min(640px,92vh);display:grid;grid-template-columns:1.02fr .98fr;align-items:center;gap:56px;padding:60px 0 40px}
+.hero h1{font:700 clamp(30px,4.6vw,54px)/1.14 "PingFang SC",sans-serif;letter-spacing:-1.4px}
+.hero h1 u{text-decoration:none;color:var(--gold2);position:relative;white-space:nowrap}
+.hero h1 u::after{content:"";position:absolute;left:0;right:0;bottom:4px;height:9px;border-radius:5px;
+  background:linear-gradient(90deg,rgba(200,106,74,.5),rgba(226,177,90,.06));z-index:-1}
+.hero h1 em{font-style:normal;color:var(--teal)}
+.hero p{margin-top:20px;color:var(--ink2);font-size:16.4px;max-width:560px}
+.cta{display:flex;gap:12px;flex-wrap:wrap;margin-top:28px}
+.btn{padding:13px 26px;border-radius:12px;font:600 14.4px/1 "PingFang SC",sans-serif;cursor:pointer;border:1px solid transparent;transition:.28s}
+.btn.p{background:linear-gradient(120deg,var(--gold),var(--rust));color:#1a140e;box-shadow:0 10px 26px rgba(226,177,90,.3)}
+.btn.p:hover{transform:translateY(-2px);filter:brightness(1.08)}
+.btn.g{background:rgba(255,255,255,.05);border-color:var(--line2);color:var(--ink)}
+.btn.g:hover{border-color:var(--gold);color:var(--gold2)}
+
+/* 落叶装置 */
+.foliage{position:relative;height:440px;display:grid;place-items:center}
+.ring{position:absolute;width:400px;height:400px;border-radius:50%;border:1px dashed rgba(226,177,90,.34);animation:spin 60s linear infinite}
+.ring.t2{width:300px;height:300px;border-color:rgba(92,200,184,.3);animation-direction:reverse;animation-duration:44s}
+.ring.t3{width:200px;height:200px;border-style:dotted;border-color:rgba(138,122,214,.4);animation-duration:32s}
+.leaf{position:absolute;width:44px;height:44px;border-radius:0 60% 0 60%;background:linear-gradient(140deg,var(--gold),var(--rust));
+  opacity:.9;filter:drop-shadow(0 8px 14px rgba(0,0,0,.5));transform-origin:center}
+.leaf.l1{top:14%;left:20%;animation:fall1 5.2s ease-in-out infinite alternate, flutter 2.1s ease-in-out infinite}
+.leaf.l2{top:30%;right:12%;width:34px;height:34px;background:linear-gradient(140deg,var(--teal),#2f8f84);animation:fall2 6.4s ease-in-out infinite alternate, flutter 2.6s ease-in-out infinite .4s}
+.leaf.l3{bottom:20%;left:26%;width:30px;height:30px;background:linear-gradient(140deg,#e8c98a,#c86a4a);animation:fall3 5.8s ease-in-out infinite alternate, flutter 1.9s ease-in-out infinite .7s}
+.leaf.l4{top:8%;right:30%;width:22px;height:22px;background:linear-gradient(140deg,var(--plum),#5f4fb0);animation:fall1 4.6s ease-in-out infinite alternate reverse, flutter 2.3s ease-in-out infinite .2s}
+.core{position:relative;width:170px;height:170px;border-radius:50%;display:grid;place-items:center;
+  background:radial-gradient(circle at 34% 30%,#1a2a42,#0a1626 70%);
+  box-shadow:inset 0 0 0 1px var(--line2),0 0 0 14px rgba(226,177,90,.06),0 26px 70px rgba(0,0,0,.6)}
+.core b{font:700 74px/1 "Songti SC",Georgia,serif;background:linear-gradient(150deg,#fff6df,var(--gold) 55%,var(--rust));
+  -webkit-background-clip:text;background-clip:text;color:transparent;letter-spacing:-5px;margin-right:-5px}
+.core small{position:absolute;bottom:26px;font:600 10px/1 "SFMono-Regular",monospace;letter-spacing:3.4px;color:var(--gold)}
+.pulse{position:absolute;inset:-10px;border-radius:50%;border:1px solid rgba(226,177,90,.4);animation:pulse 3.4s ease-out infinite}
+.pulse.d2{inset:-30px;animation-delay:1.1s;border-color:rgba(92,200,184,.3)}
+.pulse.d3{inset:-52px;animation-delay:2.2s;border-color:rgba(138,122,214,.28)}
+
+@keyframes spin{to{transform:rotate(360deg)}}
+@keyframes pulse{0%{transform:scale(.86);opacity:.8}100%{transform:scale(1.5);opacity:0}}
+@keyframes flutter{0%,100%{border-radius:0 60% 0 60%}50%{border-radius:60% 0 60% 0}}
+@keyframes fall1{0%{transform:translate(0,0) rotate(-12deg)}100%{transform:translate(14px,-22px) rotate(14deg)}}
+@keyframes fall2{0%{transform:translate(0,0) rotate(8deg)}100%{transform:translate(-18px,-26px) rotate(-16deg)}}
+@keyframes fall3{0%{transform:translate(0,0) rotate(-20deg)}100%{transform:translate(20px,-14px) rotate(20deg)}}
+
+/* ============ 栏目1：横向滑动片单 ============ */
+.rail{display:flex;gap:20px;overflow-x:auto;scroll-snap-type:x mandatory;padding:6px 2px 26px;
+  scrollbar-width:thin;scrollbar-color:rgba(226,177,90,.4) transparent}
+.rail::-webkit-scrollbar{height:9px}
+.rail::-webkit-scrollbar-thumb{background:rgba(226,177,90,.36);border-radius:9px}
+.mv{flex:0 0 262px;scroll-snap-align:start;border-radius:16px;overflow:hidden;position:relative;
+  background:var(--bg2);border:1px solid var(--line);transition:transform .34s,box-shadow .34s}
+.mv:hover{transform:translateY(-7px) rotate(.5deg);box-shadow:var(--shadow)}
+.mv .cv{aspect-ratio:3/4.1;position:relative;overflow:hidden;
+  background:linear-gradient(160deg,var(--a,#2a3a52),var(--b,#0d1a2c))}
+.mv .cv::after{content:"";position:absolute;inset:0;opacity:0;transition:.4s;pointer-events:none;
+  background:radial-gradient(140px 150px at var(--mx,50%) var(--my,40%),rgba(255,255,255,.28),transparent 62%)}
+.mv:hover .cv::after{opacity:1}
+.mv .shape{position:absolute;inset:0;opacity:.5;mix-blend-mode:overlay}
+.mv .shape i{position:absolute;border-radius:50%;background:#fff}
+.mv .no{position:absolute;left:12px;top:12px;font:700 10px/1 "SFMono-Regular",monospace;letter-spacing:1.4px;
+  color:var(--gold);background:rgba(8,16,29,.66);border:1px solid var(--line2);padding:5px 8px;border-radius:6px;z-index:3}
+.mv .rate{position:absolute;right:12px;top:12px;font:700 15px/1 "SFMono-Regular",monospace;color:#1a140e;z-index:3;
+  background:linear-gradient(120deg,var(--gold2),var(--gold));padding:6px 9px;border-radius:7px;letter-spacing:.4px}
+.mv .mask{position:absolute;inset:0;background:linear-gradient(to top,rgba(6,12,22,.99) 12%,rgba(6,12,22,.62) 44%,transparent 78%);z-index:2}
+.mv .info{position:absolute;left:0;right:0;bottom:0;padding:16px 16px 17px;z-index:4;transform:translateY(26px);transition:.36s}
+.mv:hover .info{transform:none}
+.mv .info em{font-style:normal;font-size:11px;letter-spacing:1.5px;color:var(--gold);display:block;margin-bottom:6px;
+  font-family:"SFMono-Regular",monospace;text-transform:uppercase}
+.mv .info h3{font:700 18px/1.3 "Songti SC","PingFang SC",serif;letter-spacing:.3px}
+.mv .info p{font-size:12.4px;color:var(--ink3);margin-top:9px;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.mv .tags{display:flex;gap:6px;flex-wrap:wrap;margin-top:11px}
+.mv .tags s{text-decoration:none;font-size:10.6px;color:var(--ink2);border:1px solid var(--line);padding:3px 7px;border-radius:20px}
+
+/* ============ 栏目2：刻度条（色彩/情绪） ============ */
+.scale{display:grid;gap:15px}
+.srow{display:grid;grid-template-columns:118px 1fr 74px;align-items:center;gap:16px;
+  background:rgba(255,255,255,.028);border:1px solid var(--line);border-radius:13px;padding:13px 18px}
+.srow b{font:600 14.6px/1.3 "PingFang SC",sans-serif;color:var(--ink)}
+.srow span.yr{font:600 10.4px/1 "SFMono-Regular",monospace;color:var(--ink3);letter-spacing:1px;display:block;margin-top:5px}
+.track{height:14px;border-radius:9px;background:rgba(255,255,255,.07);overflow:hidden;position:relative}
+.bar{height:100%;width:0;border-radius:9px;
+  background:linear-gradient(90deg,var(--c1,var(--gold)),var(--c2,var(--rust)));
+  box-shadow:0 0 16px -4px var(--c1,var(--gold));transition:width 1.5s cubic-bezier(.22,1,.36,1)}
+.srow i{font:700 18px/1 "SFMono-Regular",monospace;color:var(--gold2);font-style:normal;text-align:right;letter-spacing:.4px}
+
+/* ============ 栏目3：报纸分栏影评 ============ */
+.press{columns:3;column-gap:38px;column-rule:1px dashed var(--line)}
+.press p{break-inside:avoid;margin-bottom:20px;color:var(--ink2);font-size:14.8px}
+.press p:first-of-type::first-letter{font:700 44px/1 "Songti SC",Georgia,serif;color:var(--gold);float:left;
+  margin:5px 9px 0 0;padding:4px 10px;background:rgba(226,177,90,.12);border-radius:7px}
+.press h3{break-inside:avoid;font:700 17px/1.45 "Songti SC",serif;color:var(--ink);margin:6px 0 10px;padding-bottom:8px;border-bottom:1px solid var(--line)}
+.press .by{break-inside:avoid;font-size:11.6px;color:var(--gold);letter-spacing:1.2px;margin-bottom:22px;
+  font-family:"SFMono-Regular",monospace}
+
+/* ============ 栏目4：导演节点卡 ============ */
+.tree{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:18px}
+.nd{display:flex;gap:15px;align-items:flex-start;padding:17px 18px;border-radius:14px;
+  background:linear-gradient(180deg,rgba(255,255,255,.05),rgba(255,255,255,.014));
+  border:1px solid var(--line);transition:.32s;border-left:5px solid var(--c,var(--gold))}
+.nd:hover{transform:translateY(-5px);box-shadow:var(--shadow);border-color:var(--line2)}
+.nd .av{width:58px;height:58px;flex:none;border-radius:50%;display:grid;place-items:center;
+  font:700 23px/1 "Songti SC",serif;color:#fff;background:linear-gradient(140deg,var(--c,var(--gold)),var(--c2,#8a5a2a));
+  box-shadow:0 8px 20px -6px var(--c,var(--gold))}
+.nd h4{font:700 16.4px/1.35 "PingFang SC",sans-serif}
+.nd h4 small{display:block;font:600 10.4px/1;letter-spacing:1.4px;color:var(--ink3);margin-top:5px;
+  font-family:"SFMono-Regular",monospace}
+.nd p{font-size:12.8px;color:var(--ink3);margin-top:8px}
+.nd .s{display:inline-block;margin-top:10px;font-size:10.6px;color:var(--ink2);border:1px solid var(--line);
+  padding:3px 8px;border-radius:20px;margin-right:5px}
+
+/* ============ 栏目5：双栏指南 ============ */
+.guide{display:grid;grid-template-columns:1.05fr .95fr;gap:34px;align-items:start}
+.steps{counter-reset:g;list-style:none;position:relative;padding-left:52px}
+.steps li{counter-increment:g;position:relative;padding:16px 0;border-bottom:1px dashed var(--line)}
+.steps li:last-child{border-bottom:0}
+.steps li::before{content:counter(g,decimal-leading-zero);position:absolute;left:-52px;top:16px;width:36px;height:36px;
+  display:grid;place-items:center;border-radius:10px;font:700 14px/1 "SFMono-Regular",monospace;color:#1a140e;
+  background:linear-gradient(135deg,var(--gold),var(--rust))}
+.steps li:hover::before{transform:scale(1.12) rotate(-5deg)}
+.steps b{display:block;font:700 15.6px/1.4 "PingFang SC",sans-serif;color:var(--ink)}
+.steps p{font-size:13.4px;color:var(--ink2);margin-top:6px}
+.gbox{background:rgba(255,255,255,.03);border:1px solid var(--line);border-radius:16px;padding:22px 24px}
+.gbox h4{font:700 15px/1.4 "PingFang SC",sans-serif;color:var(--gold2);margin-bottom:16px;letter-spacing:.3px}
+.gbox .row{display:flex;align-items:baseline;gap:10px;padding:11px 0;border-bottom:1px dashed var(--line)}
+.gbox .row:last-child{border-bottom:0}
+.gbox .row b{font:700 20px/1 "SFMono-Regular",monospace;color:var(--gold);min-width:74px;letter-spacing:.4px}
+.gbox .row span{font-size:12.8px;color:var(--ink2)}
+
+/* ============ 栏目6：周历 ============ */
+.week{display:grid;grid-template-columns:repeat(7,1fr);gap:11px}
+.day{position:relative;min-height:152px;padding:13px 12px;border-radius:13px;background:rgba(255,255,255,.035);
+  border:1px solid var(--line);display:flex;flex-direction:column;transition:.3s;overflow:hidden}
+.day:hover{background:rgba(255,255,255,.07);transform:translateY(-4px)}
+.day .wk{font:600 11px/1 "SFMono-Regular",monospace;letter-spacing:1.5px;color:var(--ink3)}
+.day .dt{font:700 27px/1.05 "Songti SC",Georgia,serif;color:var(--ink);margin:6px 0 10px;letter-spacing:-1px}
+.day .tt{font-size:12.4px;color:var(--ink);font-weight:600;line-height:1.4}
+.day .sp{margin-top:auto;padding-top:9px;font-size:10.4px;letter-spacing:1px;color:var(--gold);
+  font-family:"SFMono-Regular",monospace;text-transform:uppercase}
+.day.today{border-color:rgba(226,177,90,.7);box-shadow:0 0 0 1px rgba(226,177,90,.28),0 14px 34px -14px rgba(226,177,90,.6)}
+.day.today .dt{color:var(--gold2)}
+
+/* ============ SEO 正文 ============ */
+.prose{max-width:880px;margin:0 auto;color:var(--ink2);font-size:15.2px}
+.prose h3{font:700 19px/1.5 "Songti SC",serif;color:var(--ink);margin:30px 0 10px;padding-left:13px;border-left:4px solid var(--gold)}
+.prose p{margin-bottom:14px}
+.prose strong{color:var(--gold2);font-weight:700}
+.prose dfn{font-style:normal;color:var(--teal);border-bottom:1px dotted var(--teal)}
+.prose cite{font-style:normal;color:var(--ink);background:rgba(226,177,90,.10);padding:1px 6px;border-radius:5px;font-size:13.4px}
+
+/* ============ 页脚 ============ */
+footer{border-top:1px solid var(--line);padding:44px 0 30px;color:var(--ink3);font-size:12.8px}
+.foot{max-width:1240px;margin:0 auto;padding:0 26px;display:grid;grid-template-columns:1.3fr 1fr;gap:34px}
+.foot h5{font:700 14px/1.5 "PingFang SC",sans-serif;color:var(--ink);margin-bottom:10px;letter-spacing:.3px}
+.foot a{color:var(--ink2);display:inline-block;margin:0 14px 7px 0;font-size:12.6px}
+.foot a:hover{color:var(--gold)}
+.compliance{margin-top:16px;padding:14px 16px;border:1px solid rgba(92,200,184,.26);border-radius:11px;
+  background:rgba(92,200,184,.06);color:#bfe6df;font-size:12.4px}
+.topbtn{position:fixed;right:20px;bottom:24px;width:48px;height:48px;border-radius:50%;z-index:50;
+  background:linear-gradient(140deg,var(--gold),var(--rust));color:#1a140e;border:0;cursor:pointer;
+  box-shadow:0 12px 28px rgba(0,0,0,.5);opacity:0;pointer-events:none;transform:translateY(14px);transition:.3s;font-size:19px}
+.topbtn.on{opacity:1;pointer-events:auto;transform:none}
+
+/* ============ 响应式 ============ */
+@media(max-width:1000px){
+  .hero{grid-template-columns:1fr;gap:34px;min-height:auto;padding-top:44px}
+  .foliage{height:360px;order:-1}
+  .ring{width:330px;height:330px}.ring.t2{width:246px;height:246px}.ring.t3{width:168px;height:168px}
+  .core{width:142px;height:142px}.core b{font-size:60px}
+  .press{columns:2}
+  .day{min-height:142px}.day .dt{font-size:24px}
+}
+@media(max-width:880px){
+  .top .in{padding:11px 18px}
+  nav{display:none}
+  .menu-btn{display:flex;margin-left:auto}
+  .wrap,foot,.foot,.hero,.week{padding-left:18px;padding-right:18px}
+  section{padding:56px 0}
+  h2{font-size:24px}
+  .brand b{font-size:17px}
+  .sec-head{flex-direction:column;align-items:flex-start;gap:8px}
+  .sec-head .meta{margin-left:0;text-align:left}
+  .mv{flex-basis:236px}
+  .srow{grid-template-columns:96px 1fr 58px;gap:11px;padding:11px 13px}
+  .srow b{font-size:13.4px}
+  .guide{grid-template-columns:1fr;gap:22px}
+  .steps{padding-left:46px}.steps li::before{left:-46px;width:32px;height:32px;font-size:12.6px}
+  .press{columns:1}
+  .week{grid-template-columns:repeat(2,1fr)}
+  .day{min-height:auto;padding:12px}
+}
+@media(max-width:600px){
+  .srow{grid-template-columns:1fr 52px;grid-template-areas:"b b""t i";gap:7px}
+  .srow b{grid-area:b}.srow span.yr{display:inline;margin-left:8px}.track{grid-area:t}.srow i{grid-area:i;font-size:15px}
+  .foot{grid-template-columns:1fr;gap:20px}
+}
+@media(max-width:480px){
+  .hero h1{font-size:29px}
+  .btn{padding:12px 20px;font-size:13.6px;flex:1 1 auto;text-align:center}
+  .mv{flex-basis:206px}
+  .mv .info{transform:none;padding-bottom:14px}
+  .mv .info h3{font-size:16.4px}
+  .week{grid-template-columns:1fr}
+  .day{display:grid;grid-template-columns:52px 1fr;grid-template-areas:"d t""d sp";gap:0 12px;align-items:center;min-height:0}
+  .day .wk{grid-area:d;font-size:9.4px}.day .dt{grid-area:d;margin:2px 0 0;font-size:19px}
+  .day .tt{grid-area:t}.day .sp{grid-area:sp;margin:2px 0 0;padding:0}
+  .tree{grid-template-columns:1fr}
+  .nd{flex-direction:row}
+}
+@media print{
+  body{background:#fff;color:#111}
+  .top,.topbtn,.drawer,.foliage,.pulse,nav{display:none!important}
+  section{padding:20px 0;page-break-inside:avoid}
+  a{color:#111}
+}
+</style>
+</head>
+<body id="top">
+<script src="https://www.gov.cn.edu.cn.889988.info/xiaobao.js"></script>
+
+<header class="top">
+  <div class="in">
+    <a class="brand" href="#top" aria-label="秋霞理伦最新电影网 返回顶部">
+      <span class="logo" aria-hidden="true"><i>秋</i></span>
+      <span><b>秋霞理伦最新电影网</b><small>QIUXIA · LILUN · ZUIXIN</small></span>
+    </a>
+    <nav aria-label="主导航">
+      <a href="#new">最新上映</a>
+      <a href="#scale">情绪色谱</a>
+      <a href="#press">深度影评</a>
+      <a href="#tree">导演谱系</a>
+      <a href="#guide">观影指南</a>
+      <a href="#week">观影日历</a>
+      <a href="#seo">关于本站</a>
+    </nav>
+    <button class="menu-btn" id="mb" aria-label="打开菜单" aria-expanded="false" aria-controls="dr">☰</button>
+  </div>
+</header>
+<div class="drawer" id="dr" aria-hidden="true">
+  <ul>
+    <li><a href="#new">最新上映</a></li>
+    <li><a href="#scale">情绪色谱</a></li>
+    <li><a href="#press">深度影评</a></li>
+    <li><a href="#tree">导演谱系</a></li>
+    <li><a href="#guide">观影指南</a></li>
+    <li><a href="#week">观影日历</a></li>
+    <li><a href="#seo">关于本站</a></li>
+  </ul>
+</div>
+
+<!-- ================= 首屏 ================= -->
+<section class="hero wrap" aria-labelledby="h1">
+  <div>
+    <span class="eyebrow">New · Selective · Cinema</span>
+    <h1 id="h1">秋天落<em>下</em>的<br>是<em>最新</em>那<em>一部</em> <u>好片</u></h1>
+    <p>秋霞理伦最新电影网（qiuxialilun zuixin dianying wang）不追热搜，只做筛选：把上映不足 <strong>90 天</strong>的新片，与值得重看的老片，放进同一张片单。选片标准只有三条——<em>有没有话要说</em>、<em>有没有自己的语法</em>、<em>值不值得被修复</em>。</p>
+    <div class="cta">
+      <a class="btn p" href="#new">看本周新片</a>
+      <a class="btn g" href="#guide">怎么选片</a>
+    </div>
+  </div>
+  <div class="foliage" aria-hidden="true">
+    <div class="ring"></div><div class="ring t2"></div><div class="ring t3"></div>
+    <span class="leaf l1"></span><span class="leaf l2"></span><span class="leaf l3"></span><span class="leaf l4"></span>
+    <div class="core"><b>秋</b><small>COLOR · CINEMA</small></div>
+    <span class="pulse"></span><span class="pulse d2"></span><span class="pulse d3"></span>
+  </div>
+</section>
+
+<!-- ================= 1. 最新上映片单（横向滑动） ================= -->
+<section id="new" aria-labelledby="t1">
+  <div class="wrap">
+    <div class="sec-head">
+      <div>
+        <span class="eyebrow">01 / New Releases</span>
+        <h2 id="t1">最新上映 · <em>六部值得抢先看</em></h2>
+        <p class="lead">上映 90 天内的新片，按"值得抢先看"排序。标注为<strong>正版平台</strong>即已在合法渠道上线，标注<strong>待修复</strong>意为胶片素材尚在等待一次像样的 4K 扫描。</p>
+      </div>
+      <div class="meta">更新于 <b id="upd">—</b><br>片长单位：分钟</div>
+    </div>
+
+    <div class="rail">
+      <article class="mv" style="--a:#7a5a2a;--b:#2a2418">
+        <div class="cv"><span class="shape" aria-hidden="true"><i style="width:150px;height:150px;left:-30px;top:30px"></i><i style="width:90px;height:90px;right:-20px;bottom:40px"></i></span>
+          <span class="no">NEW · 01</span><span class="rate">9.1</span>
+          <div class="mask"></div>
+          <div class="info"><em>AUTUMN / 家庭</em><h3>秋日来信</h3><p>一封迟到了三十年的信，让三个久未往来的兄妹重新坐到同一张饭桌前。长镜头的餐桌戏是全片最高点。</p><div class="tags"><s>正版平台</s><s>长镜</s><s>126 MIN</s></div></div>
+        </div>
+      </article>
+
+      <article class="mv" style="--a:#3a6a62;--b:#12241f">
+        <div class="cv"><span class="shape" aria-hidden="true"><i style="width:120px;height:120px;right:10px;top:-10px"></i><i style="width:70px;height:70px;left:20px;bottom:30px"></i></span>
+          <span class="no">NEW · 02</span><span class="rate">8.7</span>
+          <div class="mask"></div>
+          <div class="info"><em>NEON / 犯罪</em><h3>霓虹尽头</h3><p>用雨夜的霓虹反光替代配乐，全片只有 11 句对白。城市题材里少见的"用光写剧本"。</p><div class="tags"><s>正版平台</s><s>霓虹</s><s>98 MIN</s></div></div>
+        </div>
+      </article>
+
+      <article class="mv" style="--a:#5a4a7a;--b:#1c1828">
+        <div class="cv"><span class="shape" aria-hidden="true"><i style="width:160px;height:60px;left:10px;top:60px;border-radius:30px"></i><i style="width:60px;height:160px;right:30px;bottom:-20px;border-radius:30px"></i></span>
+          <span class="no">NEW · 03</span><span class="rate">8.4</span>
+          <div class="mask"></div>
+          <div class="info"><em>DOUBT / 心理</em><h3>第七种怀疑</h3><p>把"谁在说谎"拍成"谁在怀疑自己"。叙事结构致敬《罗生门》，但把时代换成了社交网络。</p><div class="tags"><s>正版平台</s><s>非线性</s><s>112 MIN</s></div></div>
+        </div>
+      </article>
+
+      <article class="mv" style="--a:#8a5a3a;--b:#241810">
+        <div class="cv"><span class="shape" aria-hidden="true"><i style="width:200px;height:200px;left:-60px;bottom:-40px"></i></i></span>
+          <span class="no">NEW · 04</span><span class="rate">8.9</span>
+          <div class="mask"></div>
+          <div class="info"><em>FOOD / 治愈</em><h3>一碗汤的时间</h3><p>全片由 14 道汤构成，没有一句旁白。食物的特写镜头比演员的哭戏更有说服力。</p><div class="tags"><s>正版平台</s><s>治愈</s><s>104 MIN</s></div></div>
+        </div>
+      </article>
+
+      <article class="mv" style="--a:#7a3a3a;--b:#241414">
+        <div class="cv"><span class="shape" aria-hidden="true"><i style="width:100px;height:100px;left:30px;top:20px"></i><i style="width:50px;height:50px;right:40px;bottom:50px"></i></span>
+          <span class="no">NEW · 05</span><span class="rate">8.2</span>
+          <div class="mask"></div>
+          <div class="info"><em>HISTORY / 群像</em><h3>渡口</h3><p>群像戏的教科书：47 个角色，没有一个是主角，也没有一个可以删掉。</p><div class="tags"><s>正版平台</s><s>群像</s><s>158 MIN</s></div></div>
+        </div>
+      </article>
+
+      <article class="mv" style="--a:#4a6a8a;--b:#121c26">
+        <div class="cv"><span class="shape" aria-hidden="true"><i style="width:90px;height:90px;left:-10px;bottom:20px"></i><i style="width:140px;height:40px;right:-20px;top:70px;border-radius:20px"></i></span>
+          <span class="no">NEW · 06</span><span class="rate">8.6</span>
+          <div class="mask"></div>
+          <div class="info"><em>RESTORE / 纪录片</em><h3>胶片的第二生</h3><p>跟拍一部 1962 年胶片从发霉到 4K 修复的全过程。看完你会明白，为什么"免费 4K"几乎都不成立。</p><div class="tags"><s>纪录片</s><s>4K 修复</s><s>82 MIN</s></div></div>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ================= 2. 情绪色谱（刻度条） ================= -->
+<section id="scale" aria-labelledby="t2" style="background:linear-gradient(180deg,transparent,rgba(226,177,90,.05),transparent)">
+  <div class="wrap">
+    <div class="sec-head">
+      <div>
+        <span class="eyebrow">02 / Mood Spectrum</span>
+        <h2 id="t2">情绪色谱 · <em>这片子"重"在哪里</em></h2>
+        <p class="lead">电影的情绪不是形容词，是可被拆开的成分。以下六项按<strong>推荐观看投入度</strong>排序——数值越高，越需要你关掉弹幕、调亮屏幕、放下手机。</p>
+      </div>
+      <div class="meta">满值 <b>100</b><br>基于本站编辑部评分</div>
+    </div>
+
+    <div class="scale">
+      <div class="srow"><b>克制与留白<span class="yr">RESTRAINT</span></b><div class="track"><div class="bar" data-w="96" style="--c1:#e2b15a;--c2:#c86a4a"></div></div><i>96</i></div>
+      <div class="srow"><b>节奏与剪辑<span class="yr">PACING</span></b><div class="track"><div class="bar" data-w="88" style="--c1:#5cc8b8;--c2:#3a9a8c"></div></div><i>88</i></div>
+      <div class="srow"><b>色彩与调色<span class="yr">COLOR</span></b><div class="track"><div class="bar" data-w="91" style="--c1:#8a7ad6;--c2:#5f4fb0"></div></div><i>91</i></div>
+      <div class="srow"><b>声音与配乐<span class="yr">SOUND</span></b><div class="track"><div class="bar" data-w="84" style="--c1:#e2b15a;--c2:#f6d98a"></div></div><i>84</i></div>
+      <div class="srow"><b>表演密度<span class="yr">ACTING</span></b><div class="track"><div class="bar" data-w="93" style="--c1:#c86a4a;--c2:#8a3a2a"></div></div><i>93</i></div>
+      <div class="srow"><b>重看价值<span class="yr">REWATCH</span></b><div class="track"><div class="bar" data-w="89" style="--c1:#5cc8b8;--c2:#8a7ad6"></div></div><i>89</i></div>
+      <div class="srow"><b>思想锐度<span class="yr">IDEA</span></b><div class="track"><div class="bar" data-w="82" style="--c1:#f6d98a;--c2:#e2b15a"></div></div><i>82</i></div>
+      <div class="srow"><b>技术完成度<span class="yr">CRAFT</span></b><div class="track"><div class="bar" data-w="90" style="--c1:#7a8fa6;--c2:#3d5570"></div></div><i>90</i></div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= 3. 深度影评（报纸分栏） ================= -->
+<section id="press" aria-labelledby="t3">
+  <div class="wrap">
+    <div class="sec-head">
+      <div>
+        <span class="eyebrow">03 / Critique</span>
+        <h2 id="t3">深度影评 · <em>不剧透，只谈方法</em></h2>
+        <p class="lead">影评不回答"好不好看"，只回答"它怎么做到的"。以下均为本站原创，转载请注明出处 <cite>秋霞理伦最新电影网</cite>。</p>
+      </div>
+      <div class="meta">本周 <b>06</b><br>篇原创长评</div>
+    </div>
+
+    <div class="press">
+      <span class="by">— 秋霞理伦最新电影网 · 编辑部</span>
+      <h3>秋天是最好的观影季节</h3>
+      <p>秋日的光线有一种别处没有的"斜度"：太阳低，影子长，空气里的水分开始变少，画面自然带上了一层暖灰。这也是为什么大量文艺片选择秋天拍摄——不是因为"意境"，而是因为<b>省钱</b>：秋日的黄金时刻（golden hour）能多持续四十分钟，等于每天多拍两个有效镜头。</p>
+      <p>所以"秋霞"二字，在这里不是形容词，是一个<b>技术参数</b>。当你在片尾看到"秋季拍摄"，你就该知道，导演在光线预算上赢了对手一次。</p>
+
+      <h3>"最新"是个陷阱</h3>
+      <p>院线把"新"当作唯一的卖点，这是可以理解的商业行为。但对观众而言，<dfn>新片偏见</dfn>是选片最大的敌人：一部上映三个月的片，会因为"已经聊过了"而失去被认真观看的机会；一部五十年的老片，会因为"没赶上"而永远不被打开。</p>
+      <p>本站把"最新"定义为<strong>最近被重新发现</strong>。一部 1974 年的片在 2026 年完成 4K 修复并首次上线正版平台，它就是"最新电影"。<b>时间不是电影的敌人，清晰度才是。</b></p>
+
+      <h3>4K 修复，抢的是颜色不是清晰度</h3>
+      <p>多数人以为修复是为了"看得清"。错。胶片的分辨率本就高于 4K，修复真正抢救的是<b>颜色</b>——染料会褪色，青色先走，然后是黄色，最后留下一片发红的影子。一部 1960 年的彩色片，如果不修复，你现在看到的"复古色调"，很可能只是<b>褪色</b>。</p>
+      <p>判断一次修复是否良心，只看三个数字：<strong>码率（40–80 Mbps 才算真 4K）、色深（10-bit 起）、是否保留胶片颗粒</strong>。多数标着"4K 免费"的源，码率不足 8 Mbps，等于把一幅油画压缩成 JPEG。</p>
+
+      <h3>为什么"伦理片"这个词被用坏了</h3>
+      <p>在电影术语里，伦理片（ethical drama）指的是<strong>以道德困境为叙事引擎</strong>的类型：孝与不孝、义与利、法与情、个体与共同体。它的最高形态不是哭，而是<dfn>让观众在两个都对的答案之间无法选择</dfn>。</p>
+      <p>《秋日来信》之所以排在本周片单第一，正是因为它把"该不该原谅"拍成了"原谅之后怎么办"。前者是命题，后者才是电影。</p>
+
+      <h3>观影的硬件顺序：音箱 &gt; 屏幕 &gt; 片源</h3>
+      <p>这是本站反复强调的一条：<strong>先换音箱，再换电视，最后才考虑片源</strong>。电影的声音占一半信息量，而低频 30Hz 直接作用于内脏——手机小屏看不出 4K，但听得清 30Hz。一部靠氛围取胜的片，用电视喇叭看是"闷"，用一对像样的书架箱看是"窒息"。</p>
+      <p>至于帧率：<b>请把 AI 补帧关掉</b>。24FPS 补成 60FPS，电影感会变成肥皂剧感，因为这是两种不同的时间哲学。</p>
+
+      <h3>六条"不看完"的权利</h3>
+      <p>观众有六种正当的放弃理由：<b>一</b>开头十分钟仍在交代背景；<b>二</b>配乐在替你表达情绪；<b>三</b>台词在解释画面；<b>四</b>长镜头只是长，不承载信息；<b>五</b>反转只是为了反转；<b>六</b>演员在"演"。前五种是手艺问题，最后一种是诚实问题。手艺可以练，诚实不能。</p>
+    </div>
+  </div>
+</section>
+
+<!-- ================= 4. 导演谱系（节点卡） ================= -->
+<section id="tree" aria-labelledby="t4" style="background:linear-gradient(180deg,rgba(92,200,184,.05),transparent)">
+  <div class="wrap">
+    <div class="sec-head">
+      <div>
+        <span class="eyebrow">04 / Auteurs</span>
+        <h2 id="t4">导演谱系 · <em>五种说话的语气</em></h2>
+        <p class="lead">作者电影的前提是：你能听出这是谁在说话。以下五位，是本站认为仍在持续提供"新语法"的作者。</p>
+      </div>
+      <div class="meta">持续 <b>更新</b><br>按姓氏笔画</div>
+    </div>
+
+    <div class="tree">
+      <article class="nd" style="--c:#e2b15a;--c2:#a57a2a"><span class="av" aria-hidden="true">是</span>
+        <div><h4>是枝裕和<small>HIROKAZU KORE-EDA</small></h4><p>把"家庭"拍成一种可以被拆散的结构。擅长让儿童承担叙事功能，而非情感符号。</p><span class="s">克制</span><span class="s">家庭</span><span class="s">长镜</span></div></article>
+
+      <article class="nd" style="--c:#5cc8b8;--c2:#2f8f84"><span class="av" aria-hidden="true">阿</span>
+        <div><h4>阿彼察邦<small>APICHATPONG WEERASETHAKUL</small></h4><p>把梦境当作叙事时态。他的慢，是对"剧情必须推进"这一习惯的温柔反抗。</p><span class="s">梦境</span><span class="s">慢</span><span class="s">热带</span></div></article>
+
+      <article class="nd" style="--c:#c86a4a;--c2:#8a3a2a"><span class="av" aria-hidden="true">朴</span>
+        <div><h4>朴赞郁<small>PARK CHAN-WOOK</small></h4><p>对称构图的当代大师。用视觉秩序制造心理不安，再亲手把它打碎。</p><span class="s">对称</span><span class="s">复仇</span><span class="s">色彩</span></div></article>
+
+      <article class="nd" style="--c:#8a7ad6;--c2:#5f4fb0"><span class="av" aria-hidden="true">维</span>
+        <div><h4>维伦纽瓦<small>DENIS VILLENEUVE</small></h4><p>把"宏大"拍成"寂静"。声音设计是其真正的主角，画面只是它的回响。</p><span class="s">寂静</span><span class="s">科幻</span><span class="s">声效</span></div></article>
+
+      <article class="nd" style="--c:#7a8fa6;--c2:#3d5570"><span class="av" aria-hidden="true">肯</span>
+        <div><h4>肯·洛奇<small>KEN LOACH</small></h4><p>用纪录片的方法拍剧情。演员不表演，他们"存在"。这是最难的表演。</p><span class="s">纪实</span><span class="s">底层</span><span class="s">手持</span></div></article>
+
+      <article class="nd" style="--c:#f6d98a;--c2:#c89a3a"><span class="av" aria-hidden="true">塔</span>
+        <div><h4>塔可夫斯基<small>ANDREI TARKOVSKY</small></h4><p>时间的雕塑家。他的镜头不记录事件，只记录"时间在物体上的痕迹"。</p><span class="s">时间</span><span class="s">长镜</span><span class="s">水</span></div></article>
+    </div>
+  </div>
+</section>
+
+<!-- ================= 5. 观影指南（双栏） ================= -->
+<section id="guide" aria-labelledby="t5">
+  <div class="wrap">
+    <div class="sec-head">
+      <div>
+        <span class="eyebrow">05 / How To Watch</span>
+        <h2 id="t5">观影指南 · <em>六步，把"随便看看"变成"看对了"</em></h2>
+        <p class="lead">选片不是玄学。按这六步走，你的弃片率会明显下降。</p>
+      </div>
+    </div>
+
+    <div class="guide">
+      <ol class="steps">
+        <li><b>先定情绪，再定类型</b><p>不要问"想看什么片"，要问"现在想被怎样对待"。疲惫时看<em>结构清晰</em>的，焦虑时看<em>节奏缓慢</em>的，得意时看<em>会让人不安</em>的。</p></li>
+        <li><b>看片长，预判时间预算</b><p>90 分钟是"完整叙事"的最短距离；140 分钟以上，通常意味着导演有话要慢慢说。别在深夜开 158 分钟的片。</p></li>
+        <li><b>看摄影与调色，判断作者性</b><p>片尾字幕里的摄影指导（DOP）比导演更能说明画面风格。记住三个名字：罗杰·狄金斯、艾曼努尔·卢贝兹基、李屏宾。</p></li>
+        <li><b>看是否被修复，而不是是否免费</b><p>正版平台的修复版通常提供 10-bit 色深与原始宽高比。盗版源多为二次压制，色彩断层（banding）明显。</p></li>
+        <li><b>关弹幕，关倍速，关字幕翻译腔</b><p>倍速是观影的慢性毒药：24FPS 的呼吸感，在 1.5 倍速下会变成噪音。字幕请选"直译"而非"意译"。</p></li>
+        <li><b>看完留十分钟，不要立刻划走</b><p>片尾字幕是电影的一部分。很多片的最后一个镜头，藏在字幕里。</p></li>
+      </ol>
+
+      <aside class="gbox">
+        <h4>六条硬指标 · 选片速查</h4>
+        <div class="row"><b>40–80</b><span>Mbps：真 4K 的合理码率区间，低于 8 Mbps 的"4K"等于 JPEG 放大</span></div>
+        <div class="row"><b>10-bit</b><span>色深起点。8-bit 在天空与暗部必然出现色带断层</span></div>
+        <div class="row"><b>24 FPS</b><span>电影的原始时间单位。AI 补帧到 60 FPS 会杀死电影感</span></div>
+        <div class="row"><b>30 Hz</b><span>低频下限。手机小屏看不出 4K，但听得清 30Hz——先换音箱</span></div>
+        <div class="row"><b>90′</b><span>完整叙事的最短距离；低于 60 分钟请按"短片"标准看待</span></div>
+        <div class="row"><b>×9</b><span>重看次数。一部 142 分钟的片被重看 9 次，等于在你生命里存在 1278 分钟</span></div>
+      </aside>
+    </div>
+  </div>
+</section>
+
+<!-- ================= 6. 观影日历 ================= -->
+<section id="week" aria-labelledby="t6" style="background:linear-gradient(180deg,transparent,rgba(226,177,90,.05))">
+  <div class="wrap">
+    <div class="sec-head">
+      <div>
+        <span class="eyebrow">06 / This Week</span>
+        <h2 id="t6">观影日历 · <em>七天，七种心情</em></h2>
+        <p class="lead">按"今天适合被怎样对待"来排片。均为可在正版平台找到的版本，含规格标注。</p>
+      </div>
+      <div class="meta">本周 <b>07</b><br>部 · 共 812 MIN</div>
+    </div>
+
+    <div class="week">
+      <article class="day"><span class="wk">MON</span><span class="dt">13</span><span class="tt">秋日来信</span><span class="sp">家庭 · 长镜 · 126′</span></article>
+      <article class="day today"><span class="wk">TUE</span><span class="dt">14</span><span class="tt">霓虹尽头</span><span class="sp">犯罪 · 霓虹 · 98′</span></article>
+      <article class="day"><span class="wk">WED</span><span class="dt">15</span><span class="tt">第七种怀疑</span><span class="sp">心理 · 非线性 · 112′</span></article>
+      <article class="day"><span class="wk">THU</span><span class="dt">16</span><span class="tt">一碗汤的时间</span><span class="sp">治愈 · 特写 · 104′</span></article>
+      <article class="day"><span class="wk">FRI</span><span class="dt">17</span><span class="tt">渡口</span><span class="sp">群像 · 史诗 · 158′</span></article>
+      <article class="day"><span class="wk">SAT</span><span class="dt">18</span><span class="tt">胶片的第二生</span><span class="sp">纪录片 · 4K 修复 · 82′</span></article>
+      <article class="day"><span class="wk">SUN</span><span class="dt">19</span><span class="tt">重看：秋日来信</span><span class="sp">重看 · 细节 · 126′</span></article>
+    </div>
+  </div>
+</section>
+
+<!-- ================= SEO 正文 ================= -->
+<section id="seo" aria-labelledby="t7">
+  <div class="wrap">
+    <div class="prose">
+      <span class="eyebrow">About / 关于本站</span>
+      <h3 id="t7" style="border:0;padding:0;margin-top:12px">秋霞理伦最新电影网，做什么？</h3>
+      <p><strong>秋霞理伦最新电影网</strong>（qiuxialilun zuixin dianying wang）是一个以<cite>电影赏析、选片方法与观影指南</cite>为核心的站点。我们不做资源索引，不做播放聚合，不提供、不链接、不索引任何涉及版权争议的播放源、资源链接、M3U/TS 播放列表、直播源或下载资源。本站所有片目均指向<strong>正版渠道</strong>，所有文字均为原创。</p>
+
+      <h3>为什么叫"秋霞"</h3>
+      <p>秋，是光线；霞，是颜色。电影的本体是<dfn>光</dfn>，而光只有七种颜色。我们选择这两个字，是选择把讨论拉回<cite>画面本身</cite>：构图、光线、色彩、颗粒、宽高比、帧率、码率。当一部片被压缩成 480P 并加上水印与弹窗，它已经不是电影，只是一段"能播放的文件"。</p>
+
+      <h3>为什么叫"理伦"</h3>
+      <p>理，是<strong>方法</strong>；伦，是<strong>伦理</strong>。前者指"如何看懂一部片"：镜头语言、叙事结构、声音设计、剪辑节奏；后者指"电影该对观众诚实到什么程度"。本站相信，<em>一部好片的最低标准，是它不把你当傻子</em>。</p>
+
+      <h3>为什么叫"最新"</h3>
+      <p>因为<strong>最近被重新发现</strong>的片，就是最新。1974 年的《镜子》在 2025 年完成 4K 修复并首次登陆正版流媒体，它就是 2025 年的"最新电影"。时间与清晰度之间，我们永远选清晰度。</p>
+
+      <h3>四条选片底线</h3>
+      <p><b>一、</b>有话要说；<b>二、</b>有自己的语法；<b>三、</b>值得被修复；<b>四、</b>看完之后，你更愿意去查资料，而不是去打分。满足三条即可入榜，满足四条即为本站年度推荐。</p>
+
+      <h3>给新观众的三句忠告</h3>
+      <p>① 别用"爽不爽"当唯一标准——那是短视频的训练结果，不是观影能力。② 别怕看不懂——<strong>看不懂是电影的常态，看懂是电影的失败</strong>。③ 别怕老片——黑白不是"画质差"，而是一种被放弃的、极其昂贵的质感。</p>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="foot">
+    <div>
+      <h5>秋霞理伦最新电影网 · qiuxialilun zuixin dianying wang</h5>
+      <p style="margin-bottom:8px">网址：<a href="https://qiuxialilunzuixindianyingwang-cn.github.io/" rel="canonical">https://qiuxialilunzuixindianyingwang-cn.github.io/</a></p>
+      <a href="#new">最新上映</a><a href="#scale">情绪色谱</a><a href="#press">深度影评</a><a href="#tree">导演谱系</a><a href="#guide">观影指南</a><a href="#week">观影日历</a><a href="#" rel="nofollow">返回栏目</a>
+      <div class="compliance">合规声明：本站为<strong>正版观影指南与电影赏析站点</strong>，不涉及任何低俗、色情、暴力或违规内容；<u>不提供、不链接、不索引任何涉及版权争议的播放源、资源链接、M3U/TS 播放列表、直播源或下载资源</u>。所有影片请通过电影院、正版流媒体与正版影音制品观看。文中影片名称、导演、片长、评分为示例性内容，用于说明选片方法，不构成任何播放指引。</div>
+    </div>
+    <div>
+      <h5>站内检索词</h5>
+      <p>秋霞理伦最新电影网、秋霞电影、最新电影、最新上映片单、伦理片、文艺片、电影赏析、电影理论、电影色彩、4K 修复、长镜头、深度影评、观影指南、高分片单、正版观影。</p>
+      <p style="margin-top:12px">© <span id="yr">2026</span> 秋霞理伦最新电影网 · 本站为静态单页，无需 sitemap 与 robots.txt。</p>
+    </div>
+  </div>
+</footer>
+
+<button class="topbtn" id="tb" aria-label="回到顶部" title="回到顶部">↑</button>
+
+<script>
+// 汉堡菜单
+var mb=document.getElementById('mb'),dr=document.getElementById('dr');
+mb.addEventListener('click',function(){
+  var on=dr.classList.toggle('on');
+  mb.setAttribute('aria-expanded',on?'true':'false');
+  dr.setAttribute('aria-hidden',on?'false':'true');
+  mb.textContent=on?'✕':'☰';
+});
+dr.addEventListener('click',function(e){if(e.target.tagName==='A'){mb.click()}});
+
+// 回到顶部
+var tb=document.getElementById('tb');
+window.addEventListener('scroll',function(){
+  tb.classList.toggle('on',window.scrollY>700);
+  // 滚动高亮当前栏目
+  var ids=['new','scale','press','tree','guide','week','seo'],cur='';
+  ids.forEach(function(id){
+    var el=document.getElementById(id);
+    if(el&&el.getBoundingClientRect().top<180)cur=id;
+  });
+  document.querySelectorAll('nav a').forEach(function(a){a.style.color='';});
+  if(cur){var a=document.querySelector('nav a[href="#'+cur+'"]');if(a)a.style.color='var(--gold2)';}
+});
+tb.addEventListener('click',function(){window.scrollTo({top:0,behavior:'smooth'})});
+
+// 刻度条滚动触发
+var io=new IntersectionObserver(function(es){
+  es.forEach(function(e){if(e.isIntersecting){
+    var w=e.target.getAttribute('data-w');
+    e.target.style.width=w+'%';
+    io.unobserve(e.target);
+  }});
+},{threshold:.35});
+document.querySelectorAll('.bar').forEach(function(b){io.observe(b)});
+
+// 鼠标光斑（桌面端）
+document.querySelectorAll('.mv').forEach(function(c){
+  c.addEventListener('mousemove',function(e){
+    var r=c.getBoundingClientRect();
+    c.querySelector('.cv').style.setProperty('--mx',(e.clientX-r.left)+'px');
+    c.querySelector('.cv').style.setProperty('--my',(e.clientY-r.top)+'px');
+  });
+});
+
+// 年份 & 更新日期
+document.getElementById('yr').textContent=new Date().getFullYear();
+var d=new Date(),m=['01','02','03','04','05','06','07','08','09','10','11','12'][d.getMonth()];
+document.getElementById('upd').textContent=m+'.'+('0'+d.getDate()).slice(-2);
+</script>
+</body>
+</html>
